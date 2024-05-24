@@ -6,5 +6,5 @@ func _ready() -> void:
 	$Foo.function_that_crashes([123.4])		# Invalid type error (but why??)
 	
 	
-func function_that_works(arr: Array[float] = []) -> void:
+func function_that_works(arr: Array[float]) -> void:
 	print(arr)

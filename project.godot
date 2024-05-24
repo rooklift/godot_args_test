@@ -14,8 +14,3 @@ config/name="Godot Args Test"
 run/main_scene="res://root.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
-
-[debug]
-
-gdscript/warnings/untyped_declaration=2
-gdscript/warnings/inferred_declaration=2
